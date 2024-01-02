@@ -54,7 +54,7 @@ cap1=cv2.VideoCapture('..//vid//soccer-demo.mp4')
 cap2=cv2.VideoCapture('..//vid//soccer-demo.mp4')
 cap3 = cv2.VideoCapture('..//vid//soccer-demo.mp4')
 
-frameCount=int(cap1.get(cv.CV_CAP_PROP_FRAME_COUNT))
+frameCount=int(cap1.get(cv2.CAP_PROP_FRAME_COUNT))
 
 
 #stitch the first 3 frames, get homography matrices used in the remaining frames
