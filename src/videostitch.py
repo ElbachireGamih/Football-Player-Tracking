@@ -14,7 +14,6 @@ def findHomoMatrix(img1, img2):
     searchParam = {'checks': 50}
 
     flann = cv2.FlannBasedMatcher(indexParam, searchParam)
-
     matches = flann.knnMatch(descriptor1,descriptor2,k=2)
 
     # keep good matches of points
