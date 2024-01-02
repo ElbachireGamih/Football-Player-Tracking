@@ -51,9 +51,9 @@ def warpTwoImages(img1, img2, H):
 
 
 #step1: capture the video and get the frames
-cap1=cv2.VideoCapture('..//vid//football_left.mp4')
-cap2=cv2.VideoCapture('..//vid//football_mid.mp4')
-cap3 = cv2.VideoCapture('..//vid//football_right.mp4')
+cap1=cv2.VideoCapture('..//vid//soccer-demo.mp4')
+cap2=cv2.VideoCapture('..//vid//soccer-demo.mp4')
+cap3 = cv2.VideoCapture('..//vid//soccer-demo.mp4')
 
 frameCount=int(cap1.get(cv.CV_CAP_PROP_FRAME_COUNT))
 
